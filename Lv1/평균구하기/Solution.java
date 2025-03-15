@@ -14,4 +14,6 @@ class Solution {
         answer = answer / arr.length;
         return answer;
     }
+
+
 }
