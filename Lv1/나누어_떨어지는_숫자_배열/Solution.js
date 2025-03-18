@@ -4,8 +4,9 @@ function solution(arr, divisor) {
         if(num % divisor === 0){
             answer.push(num);
         }
-        if(answer.length == 0 ) return [-1];
+
 
     }
+    if(answer.length == 0 ) return [-1];
         return answer.sort((a,b) => a- b);
 }
