@@ -51,4 +51,6 @@ def solution(cards1, cards2, goal):
             return 'No'
         
     return answer
-    
+
+# GREEDY 알고리즘을 사용하여 문제를 해결하는 방식입니다.
+# 시공간복잡도 O(n^2), 공간복잡도` O(1)입니다.
